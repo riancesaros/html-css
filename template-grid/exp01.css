@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    margin: 0;
     font-size: 20px;
     font-family: Helvetica, sans-serif;
 }
@@ -60,7 +59,7 @@
     grid-area: l3;
 }
 .content {
-    background-color: #ce938b;
+    background-color: aliceblue;
     grid-area: content;
     display: flex;
     justify-content: space-around;
@@ -92,4 +91,22 @@
 }
 .footer p {
     margin-top: 25px;
+}
+
+@media(max-width: 992px) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-areas: 'header'
+                             'left'
+                             'content'
+                             'right'
+                             'footer';
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content #f1, .content #f2, .content #f3 {
+        width: 100%;
+    }
 }
