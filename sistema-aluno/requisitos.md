@@ -1,4 +1,4 @@
-## Adicionar no site do COLSIF:
+### Adicionar no site do COLSIF:
 
 - Colocar informaçoes complementares e imagens nas abas de conteudo e no lado da pagina home 
 - Organizar o formulario de aluno colocando-o na vertical
