@@ -37,6 +37,7 @@
                 
                 </tr>
               </table>
+              <?php print_r($_GET)?>
         </Section>
     </article>
     <footer>Rodape</footer>

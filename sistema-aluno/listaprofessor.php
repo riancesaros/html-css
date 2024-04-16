@@ -31,11 +31,11 @@
                 </tr>
 
                 <tr>
-                  <td> <?php echo $_GET["name"]; ?> </td>
-                  <td> <?php echo $_GET["adress"]; ?> </td>
-                  <td> <?php echo $_GET["city"]; ?> </td>
-                  <td> <?php echo $_GET["state"]; ?> </td>
-                  <td> <?php echo $_GET["email"]; ?> </td>
+                  <td> <?php echo $_POST["name"]; ?> </td>
+                  <td> <?php echo $_POST["adress"]; ?> </td>
+                  <td> <?php echo $_POST["city"]; ?> </td>
+                  <td> <?php echo $_POST["state"]; ?> </td>
+                  <td> <?php echo $_POST["email"]; ?> </td>
                 
                 </tr>
                 
@@ -50,10 +50,10 @@
                 </tr>
 
                 <tr>
-                  <td> <?php echo $_GET["company"]; ?> </td>
-                  <td> <?php echo $_GET["local"]; ?> </td>
-                  <td> <?php echo $_GET["company-city"]; ?> </td>
-                  <td> <?php echo $_GET["cnpj"]; ?> </td>
+                  <td> <?php echo $_POST["company"]; ?> </td>
+                  <td> <?php echo $_POST["local"]; ?> </td>
+                  <td> <?php echo $_POST["company-city"]; ?> </td>
+                  <td> <?php echo $_POST["cnpj"]; ?> </td>
                 
                 </tr>
                 
